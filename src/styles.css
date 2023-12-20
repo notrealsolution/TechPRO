@@ -60,3 +60,10 @@ img {
     text-align: center;
 }
 
+/*Degradados*/
+.degradado-verde {
+    color: transparent;
+    background: linear-gradient( to right, var(--primario) 0%, var(--secundario) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
