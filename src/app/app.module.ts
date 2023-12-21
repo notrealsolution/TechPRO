@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IconosComponent } from './iconos/iconos.component';
 import { SobreTechComponent } from './sobre-tech/sobre-tech.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IconosComponent,
-    SobreTechComponent
+    SobreTechComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule
