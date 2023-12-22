@@ -7,6 +7,7 @@ import { IconosComponent } from './iconos/iconos.component';
 import { SobreTechComponent } from './sobre-tech/sobre-tech.component';
 import { MainComponent } from './main/main.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     IconosComponent,
     SobreTechComponent,
     MainComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
