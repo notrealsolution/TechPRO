@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { IconosComponent } from './iconos/iconos.component';
 import { SobreTechComponent } from './sobre-tech/sobre-tech.component';
 import { MainComponent } from './main/main.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MainComponent } from './main/main.component';
     HeaderComponent,
     IconosComponent,
     SobreTechComponent,
-    MainComponent
+    MainComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule
