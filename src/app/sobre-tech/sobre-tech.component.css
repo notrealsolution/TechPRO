@@ -1,12 +1,15 @@
-.sobre-tech{
-    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(../../assets/img/imagen-mujer.jpg);
+/*
+    enlace sobre-tech
+*/
+.sobre-tech{    
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+
 @media (min-width: 768px) {
     .sobre-tech{
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../../assets/img/imagen-mujer.jpg);
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(./../../assets/img/imagen-mujer.jpg);
         background-position: right;
         background-repeat: repeat, no-repeat;
     }

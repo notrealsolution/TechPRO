@@ -67,3 +67,53 @@ img {
     -webkit-background-clip: text;
     background-clip: text;
 }
+
+/*
+    enlace sobre-tech
+*/
+.notavif.notwebp .sobre-tech{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.jpg);
+}
+.webp.sobre-tech{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.webp);
+}
+.avif .sobre-tech{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.avif);
+}
+
+/* @media (min-width: 768px) {
+    .notavif.notwebp .sobre-tech{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/imagen-mujer.jpg);
+    }
+    .webp.sobre-tech{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/imagen-mujer.webp);
+    }
+    .avif .sobre-tech{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/imagen-mujer.avif);
+    }
+} */
+
+/*
+    enlace newsletter
+*/
+.notavif.notwebp .newsletter{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.jpg);
+}
+.webp.newsletter{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/imagen-mujer.webp);
+}
+.avif .newsletter{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/imagen-mujer.avif);
+}
+
+/* @media (min-width: 768px) {
+    .notavif.notwebp .newsletter{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.jpg);
+    }
+    .webp.newsletter{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.webp);
+    }
+    .avif .newsletter{
+        background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(assets/img/newsletter.avif);
+    }
+} */
